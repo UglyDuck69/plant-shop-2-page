@@ -164,28 +164,46 @@ height: 22px;
     width: 248px;
     height: fit-content;
     margin-top: 20px;
+    padding-top: 23px;
+    padding-left: 24px;
 }
 .categories{
-    width: 248px;
-    height: 420px;
+    width: 270px;
+    height: 470px;
     padding-left: 16px;
     padding-top: 18px;
     border-radius: 10px;
-    background-color: #436e3523;
+    background-color: white;
+    border: 1px solid #E3E5E6;
+    box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
+    border-radius: 10px;
 }
 .price{
-    width: 248px;
+    width: 270px;
     height: 58px;
     border-radius: 10px;
-    background-color: #436e3523;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #E3E5E6;
+    box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
+    border-radius: 10px;
     margin-top: 19px;
+    padding-left: 24px;
+    padding-right: 26px;
+    position: relative;
 }
 .include{
-    width: 248px;
-    height: 187px;
+    width: 270px;
+    height: 290px;
     border-radius: 10px;
     margin-top: 21px;
-    background-color: #436e3523;
+    background-color: white;
+    border: 1px solid #E3E5E6;
+    box-shadow: 0px 8px 23px rgba(80, 107, 82, 0.13);
+    border-radius: 10px;
+    padding-left: 24px;
+    padding-top: 23px;
 }
 .images{
     width: 100%;
@@ -297,34 +315,118 @@ color: #FFFFFF;
     width: 15px;
 height: 10.42px;
 }
+.categories1{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    gap: 17px;
+}
 
+.categories11txt{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60%;
+    letter-spacing: 0.0275em;
+    color: #343434;
+}
+.categories11txt1{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 43%;
+/* or 20px */
 
+display: flex;
+align-items: center;
+letter-spacing: 0.018em;
 
+color: rgba(52, 52, 52, 0.6);
+}
+.indoor{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    padding-left: 40px;
+    gap: 14px;
+}
+.indoortxt{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.022em;
+color: #343434;
+}
+.indoorlist{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+display: flex;
+margin-left: 82px;
+align-items: flex-end;
+letter-spacing: 0.022em;
+text-transform: capitalize;
+color: #343434;
+}
+#showmore{
+    margin-left: 44px;
+}
+.pricetxt{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0275em;
+    color: #343434;
+}
+.priceimg{
+    position: absolute;
+    right: 27px;
+}
+.inglucetxt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.0275em;
+color: #343434;
+}
+.radio{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.radiotxt{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
 
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.022em;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+color: #343434;
+}
+.checkbox{
+    height: 16px;
+    width: 16px;
+}
 .footer{
     display: flex;
     width: 100%;
